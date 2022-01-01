@@ -8,14 +8,14 @@
 
 ## Summary
 
-I'm an ordinary person in ordinary circumstances.
+I'm a teacher with 10+ years' experience. I am a self-motivated and discipline person with good communication skills. Now I'd like to learn more about front-end development. 
 
 ## Skills
 * Python
 * HTML + CSS
-* Javascript
+* JavaScript
 * UML
-* git
+* Git
 
 
 ## Code examples
@@ -31,11 +31,15 @@ def findMaxElement():
 
 
 ## Experience
-2010 – 2020: Teacher
+2010 – 2021: Teacher
 
 
 ## Education
 2005 – 2010: BSU (Minsk, Belarus)
+
+
+## Courses
+RS School JS / Front-end, stage 0 (in progress)
 
 
 ## Languages
