@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url("assets/fonts/Barlow-Regular.ttf");
+    font-weight: 300;
+  }
+
+@font-face {
+    font-family: 'Barlow';
+    src: url("assets/fonts/Barlow-Bold.ttf");
+    font-weight: 600;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    line-height: 2em;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1em;
+    padding-bottom: 10%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    width: 50%;
+    padding: 20px 3%;
+}
+
+code {
+    border: solid 3px rgb(165, 165, 156);
+    border-radius: 10px;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(184, 123, 50, 0.76);
+    padding: 0 10%;
+}
+
+.nav-panel a:hover, .nav-panel a:active {
+    font-size: 150%;
+    text-shadow: darkgreen;
+    font-weight: 500;
+}
+
+.summary {
+    min-height: 10%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.nav-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background: #cacaca;
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    justify-content: center;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+
+.common-section {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.common-section:last-child {
+    padding-bottom: 40px;
+}
+
+.middle-align {
+    display: flex;
+    align-items: center;
+}
+
+.contact-label {
+    margin-left: 20px;
+}
+
+.nobull {
+    list-style-type: none;
+}
+
+.link {
+    color: rgb(117, 34, 117);
+    transition: color 0.5s;
+  }
+
+.link:hover {
+    color: rgba(184, 123, 50, 0.76);
+}
+
+footer {
+    width: 100%;
+    padding: 0 10%;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 2%;
+    background: #cacaca;
+    height: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    padding: 3px 5px;
+}
+
+.accent-text {
+    font-weight: 600;
+    color: rgb(117, 34, 117);
+}
