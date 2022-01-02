@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tomorrow.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/images/cv_16.ico" type="image/x-icon">
+    <title>cv</title>
+</head>
+<body>
+    <div class="top-wrapper">
+        <nav>
+            <ul class="nav-panel nobull">
+                <li class="nav-item"><a href="#contacts">CONTACTS</a></li>
+                <li class="nav-item"><a href="#skills">SKILLS</a></li>
+                <li class="nav-item"><a href="#langs">LANGUAGES</a></li>
+                <li class="nav-item"><a href="#edu">EDUCATION</a></li>
+                <li class="nav-item"><a href="#code">CODE</a></li>
+                <li class="nav-item"><a href="#projects">PROJECTS</a></li>
+            </ul>
+        </nav>
+        <header class="summary">
+            <div class="description">
+                <h1>OKSANA ZAVADSKAYA</h1>
+                <p>I'm a teacher with 10+ years' experience. I am a self-motivated and disciplined person with good communication skills.</p>
+                <p>Now I'd like to learn more about front-end development.</p>
+            </div>
+            <img src="./assets/images/portrait_small.jpg" alt="photo">
+        </header>
+    </div>
+    <main class="content">
+        <section id="contacts">
+            <h2>CONTACTS</h2>
+            <ul class="nobull">
+                <li class="middle-align">
+                    <img src="./assets/images/location_32.png" alt="location:">
+                    <span class="contact-label">Vilnius, Lithuania</span>
+                </li>
+                <li class="middle-align">
+                    <img src="./assets/images/mail_32.png" alt="email"> 
+                    <span class="contact-label">s_iceman@protonmail.com</span>
+                </li>
+                <li class="middle-align">
+                    <img src="./assets/images/github_32.png" alt="github">
+                    <a class="contact-label link" href="https://github.com/s-iceman">s-iceman</a>
+                </li>
+            </ul>
+        </section>
+        <section id="langs">
+            <h2>LANGUAGES</h2>
+            <ul>
+                <li><span class="accent-text">Russian</span> – native</li>
+                <li><span class="accent-text">Belarusian</span> – native</li>
+                <li><span class="accent-text">English</span> – intermediate (B1)</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML + CSS</li>
+                <li>JavaScript</li>
+                <li>UML</li>
+                <li>OOP</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section id="edu">
+            <h2>EDUCATION</h2>
+            <p><span class="accent-text">2005 – 2010:</span> BSU (Minsk, Belarus)</p>
+            <h3>Courses</h3>
+            <ul>
+                <li><a href="https://pythontutor.ru/" class="link">Python Tutor</a></li>
+                <li><a href="https://rs.school/index.html" class="link">RS School JS / Front-end, stage 0 (in progress)</a></li>
+            </ul>
+        </section>
+        <section class="common-section" id="code">
+            <h2>CODE EXAMPLE</h2>
+                <pre class="code">
+                    <code class="python">
+    def findMaxElement():
+        rawData = input().split()
+        data = [int(i) for i in rawData]
+        if data:
+            maxValue = max(data)
+            return maxValue, data.index(maxValue)
+        return None, -1
+                </code>
+            </pre>
+        </section>
+        <section class="common-section" id="projects">
+            <h2>PROJECTS</h2>
+            <p>
+                This is my first front-end project:
+                <a href="https://s-iceman.github.io/rsschool-cv/" class="link">CV</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="bottom-wrapper">
+            <span class="footer-item">
+                <img src="./assets/images/github_64.png" alt="github" class="footer-item logo">
+                <a href="https://github.com/s-iceman" class="link">s-iceman</a>
+            </span>
+            <span class="footer-item">2022</span>
+            <a href="https://rs.school/js/" class="footer-item"><img src="./assets/images/rs_school_js.svg" alt="rsschool-logo" class="logo"></a>
+        </div>
+    </footer>
+    <script src="./scripts/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
